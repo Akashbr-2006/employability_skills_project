@@ -12,7 +12,7 @@ public class Vehicle {
     public String getVehicleNumber() { return vehicleNumber; }
     public String getModel() { return model; }
 
-    
+    @Override
     public String toString() {
         return vehicleNumber + " - " + model;
     }
